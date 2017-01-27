@@ -59,7 +59,7 @@
 # robert = Person.new "Robert", "San Francisco"
 # k
 
-puts "___Passing block as an argument____"
+#puts "___Passing block as an argument____"
 class Person
       def initialize name, location
             @name, @location = name, location
@@ -81,4 +81,42 @@ puts people.class
 person_block = lambda { |person| puts person.greet}
 people.each(&person_block)
 
+# puts "__________________________"
+# class Dog
+#     def initialize breed, color, comment
+#         @breed, @color, @comment = breed, color, comment
+#     end
+
+#     def K9
+#         "The #{@breed} is #{@color} and #{@comment}!"
+#         end
+#     end
+
+#     daschund = Dog.new "Daschund", "Black & Tan", "Very Dominant"
+#     gsp = Dog.new "German Shorthaird Pointer", "brown or black","sleek"
+#     beagle = Dog.new "Beagle", "White & Brown", "great hunters"
+    
+#     puts daschund.K9
+#     puts gsp.K9
+#     puts beagle.K9
+
+
+#     puts "__________________________"
+# class Dog
+#     def initialize breed, color, comment
+#         @breed, @color, @comment = breed, color, comment
+#     end
+
+#     def K9
+#         "The #{@breed} is #{@color} and #{@comment}!"
+#         end
+#     end
+k
+#     daschund = Dog.new "Daschund", "Black & Tan", "Very Dominant"
+#     gsp = Dog.new "German Shorthaird Pointer", "brown or black","sleek"
+#     beagle = Dog.new "Beagle", "White & Brown", "great hunters"
+    
+#     puts daschund.K9
+#     puts gsp.K9
+#     puts beagle.K9
 
